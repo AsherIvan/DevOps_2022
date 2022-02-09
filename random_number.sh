@@ -14,7 +14,7 @@ count=0
 zero=0
 three=3
 
-while [ "$is_guessed" -eq  "$zero" ] && [ "$count" -lt "$three" ]
+while [ "$is_guessed" -eq  0 ] && [ "$count" -lt 3 ]
 do
 	echo "Enter the guessing number:"
 	read guess_num 
