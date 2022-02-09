@@ -11,9 +11,6 @@ done
 is_guessed=0
 count=0
 
-zero=0
-three=3
-
 while [ "$is_guessed" -eq  0 ] && [ "$count" -lt 3 ]
 do
 	echo "Enter the guessing number:"
